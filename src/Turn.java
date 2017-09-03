@@ -150,7 +150,7 @@ public class Turn {
                 }
             }
         }
-        return score;
+        return 0;
     }
 
 
