@@ -189,7 +189,7 @@ public class Turn {
             return 50;
         Integer[] diceValues = hand.getValues();
         for (int i = 0; i < diceValues.length; i++){
-            if (diceValues[i] != (5 - 1)){
+            if (diceValues[i] != (5 - i)){
                 return 0;
             }
         }
@@ -204,7 +204,7 @@ public class Turn {
             return 50;
         Integer[] diceValues = hand.getValues();
         for (int i = 0; i < diceValues.length; i++){
-            if (diceValues[i] != (6 - 1)){
+            if (diceValues[i] != (6 - i)){
                 return 0;
             }
         }
